@@ -270,21 +270,10 @@ def problem3b(m, x):
       -- Returns True if the number of doubly prime integers from m**2 to m**4,
          not counting m**4, is greater than or equal to x.
           returns False otherwise.
-    Side effects:   None.
-    Examples:
-      -- problem3b(6, 4) returns
-           1/4  +  2/(5**2)  +  3/(6**3)  +  4/(7**4)  +  5/(8**5)  + 6/(9**6),
-           which is approximately 0.3457187393495064.
-      -- problem3b(3, 1) returns
-           1/1  +  2/(2 ** 2)  +  3/(3 ** 3), which is approximately 0.6111111.
-      -- problem3b(2, 35) returns
-           1/35  +  2/(36**2), which is approximately 0.03011463844797178.
-      -- problem3b(4, 0.1) returns
-           1/(0.1)  +  2/((1.1)**2)  +  3/((2.1)**3)  +  4/(3.1)**4)),
-           which is approximately 12.020144157845959.
-     """
+    Side effects:   None. """
+
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # Done: 4. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
     ###########################################################################
